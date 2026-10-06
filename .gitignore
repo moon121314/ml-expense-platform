@@ -9,4 +9,4 @@ mlflow.db
 ml/models/*.pkl
 ml/data/raw/current_expense.csv
 drift_report.html
-.DS_Store
+.DS_Store*.tar
