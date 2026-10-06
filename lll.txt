@@ -1,0 +1,17 @@
+moon@Moons-MacBook-Air ml-expense-platform % curl -X POST http://127.0.0.1:8000/predict \
+  -H "Content-Type: application/json" \
+  -d '{"description": "Uber ride"}'
+{"description":"Uber ride","category":"transport","model_version":"v1"}%                                        
+moon@Moons-MacBook-Air ml-expense-platform % 
+
+
+
+
+
+
+ 127.0.0.1:49661 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49666 - "POST /predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49673 - "POST /predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49685 - "POST /predict HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49687 - "POST /predict HTTP/1.1" 422 Unprocessable Content
+INFO:     127.0.0.1:49691 - "POST /predict HTTP/1.1" 200 OK

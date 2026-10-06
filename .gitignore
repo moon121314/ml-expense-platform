@@ -1,0 +1,12 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+.env
+.pytest_cache/
+mlruns/
+mlflow.db
+ml/models/*.pkl
+ml/data/raw/current_expense.csv
+drift_report.html
+.DS_Store
