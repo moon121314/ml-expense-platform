@@ -3,7 +3,7 @@
 An end-to-end ML system that predicts expense categories from text descriptions.
 
 ## Live Demo
-Coming soon (Render deployment)
+https://ml-expense-platform.onrender.com/docs
 
 ## Tech Stack
 - **FastAPI** — model serving API
